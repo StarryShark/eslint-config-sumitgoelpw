@@ -4,7 +4,7 @@
   "description": "Yet another shareable ESLint config",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "commit": "./node_modules/.bin/git-cz"
   },
   "repository": {
     "type": "git",
@@ -22,5 +22,14 @@
   "homepage": "https://github.com/sumitgoelpw/eslint-config-sumitgoelpw#readme",
   "peerDependencies": {
     "eslint": ">= 3"
+  },
+  "devDependencies": {
+    "commitizen": "^2.9.5",
+    "cz-conventional-changelog": "^1.2.0"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
   }
 }
