@@ -16,6 +16,7 @@ module.exports = {
     'one-var': ['error', 'never'],
     'no-magic-numbers': 'off',
     'no-console': 'off',
-    'sort-keys': 'off'
+    'sort-keys': 'off',
+    'no-inline-comments': 'off'
   }
 };
