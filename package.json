@@ -14,7 +14,10 @@
     "eslint",
     "eslintconfig"
   ],
-  "author": "Sumit Goel",
+  "author": {
+    "name": "Sumit Goel",
+    "email": "sumit@goel.pw"
+  },
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/sumitgoelpw/eslint-config-sumitgoelpw/issues"
@@ -24,8 +27,8 @@
     "eslint": ">= 3"
   },
   "devDependencies": {
-    "commitizen": "^2.9.5",
-    "cz-conventional-changelog": "^1.2.0"
+    "commitizen": "2.9.5",
+    "cz-conventional-changelog": "1.2.0"
   },
   "config": {
     "commitizen": {

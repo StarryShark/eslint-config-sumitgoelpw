@@ -1,3 +1,3 @@
 # eslint-config-sumitgoelpw
 
-## Yet another shareable ESLint config
+### Yet another shareable ESLint config
