@@ -4,7 +4,7 @@ Yet another shareable ESLint config
 
 ### Installation
 
-`npm install eslint-config-sumitgoelpw --save`
+`npm install eslint-config-sumitgoelpw --save-dev`
 
 ### Configuration
 
