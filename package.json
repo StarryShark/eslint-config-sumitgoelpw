@@ -3,9 +3,7 @@
   "version": "1.0.1",
   "description": "Yet another shareable ESLint config",
   "main": "index.js",
-  "scripts": {
-    "commit": "./node_modules/.bin/git-cz"
-  },
+  "scripts": {},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/sumitgoelpw/eslint-config-sumitgoelpw.git"
@@ -23,16 +21,7 @@
     "url": "https://github.com/sumitgoelpw/eslint-config-sumitgoelpw/issues"
   },
   "homepage": "https://github.com/sumitgoelpw/eslint-config-sumitgoelpw#readme",
-  "peerDependencies": {
+  "dependencies": {
     "eslint": ">= 3"
-  },
-  "devDependencies": {
-    "commitizen": "2.9.5",
-    "cz-conventional-changelog": "1.2.0"
-  },
-  "config": {
-    "commitizen": {
-      "path": "./node_modules/cz-conventional-changelog"
-    }
   }
 }
