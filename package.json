@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-sumitgoelpw",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Yet another shareable ESLint config",
   "main": "index.js",
   "scripts": {},
