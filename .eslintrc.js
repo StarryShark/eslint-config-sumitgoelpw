@@ -16,6 +16,7 @@ module.exports = {
     'no-magic-numbers': 'off',
     'no-console': 'off',
     'sort-keys': 'off',
-    'no-inline-comments': 'off'
+    'no-inline-comments': 'off',
+    'max-params': ['error', {'max': 4}]
   }
 };
