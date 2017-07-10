@@ -1,9 +1,11 @@
 {
   "name": "eslint-config-sumitgoelpw",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "Yet another shareable ESLint config",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "test": "eslint ."
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/sumitgoelpw/eslint-config-sumitgoelpw.git"
