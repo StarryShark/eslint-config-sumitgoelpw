@@ -22,6 +22,6 @@
   },
   "homepage": "https://github.com/sumitgoelpw/eslint-config-sumitgoelpw#readme",
   "dependencies": {
-    "eslint": ">= 3"
+    "eslint": ">= 4"
   }
 }
