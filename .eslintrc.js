@@ -17,6 +17,9 @@ module.exports = {
     'no-console': 'off',
     'sort-keys': 'off',
     'no-inline-comments': 'off',
-    'max-params': ['error', {'max': 4}]
+    'max-params': ['error', {'max': 4}],
+    'no-process-env': 'off',
+    'padded-blocks': ['error', 'never'],
+    'max-statements': ['error', 10, { 'ignoreTopLevelFunctions': true }]
   }
 };
