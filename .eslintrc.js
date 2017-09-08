@@ -19,7 +19,7 @@ module.exports = {
     'no-inline-comments': 'off',
     'max-params': ['error', {'max': 4}],
     'no-process-env': 'off',
-    'padded-blocks': ['error', 'never'],
+    'padded-blocks': ['error', { 'classes': 'always' }],
     'max-statements': ['error', 10, { 'ignoreTopLevelFunctions': true }]
   }
 };
