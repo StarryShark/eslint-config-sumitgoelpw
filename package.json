@@ -4,7 +4,8 @@
   "description": "Yet another shareable ESLint config",
   "main": "index.js",
   "scripts": {
-    "test": "eslint ."
+    "test": "eslint -c ./.eslintrc.js . && nsp check",
+    "up": "npm-check -u -E && rm -rf ./node_modules package-lock.json && npm i"
   },
   "repository": {
     "type": "git",
@@ -15,15 +16,19 @@
     "eslintconfig"
   ],
   "author": {
-    "name": "Sumit Goel",
-    "email": "sumit@goel.pw"
+    "name": "Sumit Goel"
   },
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/sumitgoelpw/eslint-config-sumitgoelpw/issues"
   },
   "homepage": "https://github.com/sumitgoelpw/eslint-config-sumitgoelpw#readme",
-  "dependencies": {
-    "eslint": ">= 4"
+  "peerDependencies": {
+    "eslint": ">= 4.6.1"
+  },
+  "devDependencies": {
+    "eslint": "4.6.1",
+    "npm-check": "5.4.5",
+    "nsp": "2.8.0"
   }
 }
