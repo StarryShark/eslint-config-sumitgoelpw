@@ -15,20 +15,18 @@
     "eslint",
     "eslintconfig"
   ],
-  "author": {
-    "name": "Sumit Goel"
-  },
+  "author": "Sumit Goel <sumit@goel.pw>",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/sumitgoelpw/eslint-config-sumitgoelpw/issues"
   },
   "homepage": "https://github.com/sumitgoelpw/eslint-config-sumitgoelpw#readme",
   "peerDependencies": {
-    "eslint": ">= 4.6.1"
+    "eslint": ">= 4.14.0"
   },
   "devDependencies": {
-    "eslint": "4.6.1",
-    "npm-check": "5.4.5",
-    "nsp": "2.8.0"
+    "eslint": "4.14.0",
+    "npm-check": "5.5.2",
+    "nsp": "3.1.0"
   }
 }
