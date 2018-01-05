@@ -7,19 +7,51 @@ module.exports = {
   'extends': 'eslint:all',
   'parserOptions': {'sourceType': 'module'},
   'rules': {
-    'indent': ['error', 2, {'SwitchCase': 1}],
-    'linebreak-style': ['error', 'unix'],
-    'quotes': ['error', 'single'],
-    'semi': ['error', 'always'],
-    'dot-location': ['error', 'property'],
-    'one-var': ['error', 'never'],
+    'indent': [
+      'error',
+      2,
+      {'SwitchCase': 1}
+    ],
+    'linebreak-style': [
+      'error',
+      'unix'
+    ],
+    'quotes': [
+      'error',
+      'single'
+    ],
+    'semi': [
+      'error',
+      'always'
+    ],
+    'dot-location': [
+      'error',
+      'property'
+    ],
+    'one-var': [
+      'error',
+      'never'
+    ],
     'no-magic-numbers': 'off',
     'no-console': 'off',
     'sort-keys': 'off',
     'no-inline-comments': 'off',
-    'max-params': ['error', {'max': 4}],
     'no-process-env': 'off',
-    'padded-blocks': ['error', 'never'],
-    'max-statements': ['error', 10, { 'ignoreTopLevelFunctions': true }]
+    'max-params': [
+      'error',
+      {'max': 4}
+    ],
+    'padded-blocks': [
+      'error',
+      {
+        'blocks': 'never',
+        'switches': 'never'
+      }
+    ],
+    'max-statements': [
+      'error',
+      10,
+      {'ignoreTopLevelFunctions': true}
+    ]
   }
 };
