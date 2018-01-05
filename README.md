@@ -2,15 +2,15 @@
 
 Yet another shareable ESLint config
 
-### Installation
+## Installation
 
 `npm install eslint-config-sumitgoelpw --save-dev`
 
-### Configuration
+## Configuration
 
 Add following lines in package.json file.
 
-```
+```json
 "eslintConfig": {
     "extends": "sumitgoelpw"
   }
