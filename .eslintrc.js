@@ -5,7 +5,10 @@ module.exports = {
     'mocha': true
   },
   'extends': 'eslint:all',
-  'parserOptions': {'sourceType': 'module'},
+  'parserOptions': {
+    'ecmaVersion': 8,
+    'sourceType': 'module'
+  },
   'rules': {
     'indent': [
       'error',
