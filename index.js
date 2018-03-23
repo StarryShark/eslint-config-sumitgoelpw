@@ -5,7 +5,10 @@ module.exports = {
     'mocha': true,
     'jasmine': true
   },
-  'extends': 'eslint:all',
+  'extends': [
+    'eslint:all',
+    'plugin:promise/recommended'
+  ],
   'parserOptions': {
     'ecmaVersion': 9,
     'sourceType': 'module'
