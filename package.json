@@ -4,7 +4,7 @@
   "description": "Yet another shareable ESLint config",
   "main": "index.js",
   "scripts": {
-    "test": "eslint -c ./index.js . && nsp check",
+    "test": "eslint . && nsp check",
     "up": "npm-check -u -E && rm -rf ./node_modules package-lock.json && npm i"
   },
   "repository": {
