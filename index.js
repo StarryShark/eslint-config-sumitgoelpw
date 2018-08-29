@@ -49,13 +49,6 @@ module.exports = {
       'error',
       {'max': 4}
     ],
-    'padded-blocks': [
-      'error',
-      {
-        'blocks': 'never',
-        'switches': 'never'
-      }
-    ],
     'max-statements': [
       'error',
       11,
