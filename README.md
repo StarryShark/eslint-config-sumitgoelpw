@@ -1,6 +1,6 @@
-# eslint-config-sumitgoelpw
+# This project has been deprecated.
 
-Yet another shareable ESLint config
+eslint-config-sumitgoelpw - Yet another shareable ESLint config
 
 ## Installation
 
